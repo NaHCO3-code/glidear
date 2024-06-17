@@ -1,0 +1,43 @@
+<svg version="1.1" width="200" height="220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="flame" transform="translate(-86.6025403784439, -200)">
+      <path 
+        d="
+          M 123.8990047999751 150.7318664151462
+          Q 129.9038105676658 175 108.2531754730548 187.5
+          Q 86.6025403784439 200 64.9519052838329 187.5
+          Q 43.3012701892219 175 49.3060759569127 150.7318664151462
+          Q 86.6025403784439 0 123.8990047999751 150.7318664151462
+        "
+      ></path>
+    </g>
+  </defs>
+  <g transform="translate(10, 10)">
+    <use 
+      xlink:href="#flame" 
+      transform="translate(86.6025403784439, 170)"
+      fill="#ff9500"
+    ></use>
+    <use 
+      xlink:href="#flame" 
+      transform="translate(86.6025403784439, 155) scale(0.5) "
+      fill="#ffc800"
+    ></use>
+    <path 
+      d="
+        M 173.20508075688772 50
+        L 86.60254037844386 0
+        L 0 50
+        L 0 150
+        L 86.60254037844386 200
+        L 173.20508075688772 150
+        L 173.20508075688772 50
+      "
+      fill-opacity="0"
+      stroke="#336699"
+      stroke-width="20"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>        
+  </g>
+</svg>
